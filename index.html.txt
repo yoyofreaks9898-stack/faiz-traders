@@ -1,0 +1,157 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Faiz Traders & Faiz Hardware</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #1f2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    background: #374151;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 10px;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    flex: 1 1 250px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Contact */
+.contact {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+button {
+    background: #10b981;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Faiz Traders & Faiz Hardware</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h2>Your Trusted Hardware & Trading Partner</h2>
+    <p>Quality materials. Reliable service. Best prices.</p>
+</div>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        Faiz Traders & Faiz Hardware is your trusted supplier for hardware and trading materials.
+        We provide high-quality products with reliable service and competitive prices.
+        Customer satisfaction is our top priority.
+    </p>
+</section>
+
+<section id="services">
+    <h2>Our Products</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Steel & Pipes</h3>
+            <p>High-quality steel materials and durable pipes for all needs.</p>
+        </div>
+        <div class="card">
+            <h3>Hardware Tools</h3>
+            <p>Wide range of tools for construction and home use.</p>
+        </div>
+        <div class="card">
+            <h3>Building Materials</h3>
+            <p>Everything you need for construction at best prices.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> 9898584097</p>
+    <p><strong>Address:</strong> Rahadpor Chavaj Road</p>
+    <br>
+    <a href="tel:9898584097">
+        <button>Call Now</button>
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Faiz Traders & Faiz Hardware. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+	◦	
